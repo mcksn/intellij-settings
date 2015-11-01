@@ -1,20 +1,4 @@
 <application>
-  <component name="AppInspectionProfilesVisibleTreeState">
-    <entry key="Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -94,10 +78,6 @@
       <option name="ENABLED" value="true" />
     </filter>
     <filter>
-      <option name="PATTERN" value="jdk.internal.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
       <option name="PATTERN" value="junit.*" />
       <option name="ENABLED" value="true" />
     </filter>
@@ -120,7 +100,6 @@
   </component>
   <component name="DependencyUISettings">
     <option name="UI_FLATTEN_PACKAGES" value="false" />
-    <option name="SCOPE_TYPE" value="file" />
   </component>
   <component name="GlobalAntConfiguration">
     <filtersTableLayout />
@@ -129,6 +108,16 @@
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
     <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+  </component>
+  <component name="SystemNotifications">
+    <option name="NOTIFICATIONS">
+      <set>
+        <option value="Compiler (success)" />
+        <option value="TestRunner" />
+      </set>
+    </option>
   </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">

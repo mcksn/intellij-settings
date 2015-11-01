@@ -2,7 +2,8 @@
   <component name="CommunityFileTypes" version="11">
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
     <extensionMap>
-      <mapping pattern="GreetingController" type="CLASS" />
+      <mapping pattern="dummy" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="jspx" type="XML" />
       <mapping ext="tagx" type="XML" />
     </extensionMap>
