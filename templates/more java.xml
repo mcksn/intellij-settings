@@ -1,0 +1,15 @@
+<templateSet group="more java">
+  <template name="test" value="@org.junit.Test&#10;public void test$NAME$() throws Exception {&#10;  $BODY$&#10;}" description="simple JUnit test" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="Name of test" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="Test code" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>
